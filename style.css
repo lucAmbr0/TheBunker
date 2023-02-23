@@ -80,6 +80,7 @@
     width: 32%;
     border: 10px solid rgb(33, 33, 33);
     border-radius: 20px;
+    font-family: Product Sans Medium;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
@@ -88,6 +89,7 @@
     float: right;
     margin-right: 3%;
     width: 48%;
+    font-family: Product Sans Medium;
     border: 10px solid rgb(33, 33, 33);
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.3);
