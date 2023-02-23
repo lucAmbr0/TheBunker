@@ -1,3 +1,24 @@
+@font-face {
+    font-family: Product Sans Medium;
+    src: url(Fonts/ProductSans-Medium.ttf);
+}
+@font-face {
+    font-family: Product Sans Black;
+    src: url(Fonts/ProductSans-Black.ttf);
+}
+@font-face {
+    font-family: Minecraft;
+    src: url(Fonts/MinecraftRegular-Bmg3.otf);
+}
+@font-face {
+    font-family: Minecraft Italic;
+    src: url(Fonts/MinecraftItalic-R8Mo.otf);
+}
+@font-face {
+    font-family: Minecraft Bold;
+    src: url(Fonts/MinecraftBold-nMK1.otf);
+}
+
 #body {
     margin: 5%;
     background-image: url('Background.png');
