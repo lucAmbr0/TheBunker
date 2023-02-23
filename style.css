@@ -203,6 +203,7 @@ a:link {
     background-color: rgba(0, 0, 0, 0.3);
 }
 #subTitle {
+    font-family: Product Sans Medium;
     margin-top: 5px;
     margin-bottom: -2px;
     color: rgb(232, 232, 232);
@@ -210,10 +211,12 @@ a:link {
     font-size: 24px;
 }
 #Paragraphs {
+    font-family: Product Sans Medium;
     color: rgb(224, 224, 224);
     float: left;
 }
 #Parameters {
+    font-family: Product Sans Medium;
     color: rgb(224, 224, 224);
     float: right;
 }
