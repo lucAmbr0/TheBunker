@@ -1,0 +1,275 @@
+@font-face {
+    font-family: Product Sans Medium;
+    src: url(Fonts/ProductSans-Medium.ttf);
+}
+@font-face {
+    font-family: Product Sans Black;
+    src: url(Fonts/ProductSans-Black.ttf);
+}
+@font-face {
+    font-family: Minecraft;
+    src: url(Fonts/MinecraftRegular-Bmg3.otf);
+}
+@font-face {
+    font-family: Minecraft Italic;
+    src: url(Fonts/MinecraftItalic-R8Mo.otf);
+}
+@font-face {
+    font-family: Minecraft Bold;
+    src: url(Fonts/MinecraftBold-nMK1.otf);
+}
+
+#body {
+    margin: 5%;
+    background-image: url('Background.png');
+    background-size: cover;
+    /* background-image: linear-gradient(rgba(255, 174, 0, 0.7),rgba(255, 13, 0, 0.7)); */
+    background-color: black;
+    margin-top: 2%;
+    height: 120%;
+}
+#preTitle {
+    margin-left: 38%;
+    margin-right: 38%;
+    text-align: center;
+    font-family: Minecraft;
+    font-size: 20px;
+    color: rgb(18, 18, 18);
+    border-bottom: 5px solid transparent;
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+#preTitle:hover {
+    margin-left: 42%;
+    margin-right: 42%;
+    transition: 0.5s;
+    border-bottom: 5px solid rgb(33, 33, 33);
+    color: rgb(0, 0, 0);
+}
+#Title {
+    text-align: center;
+    font-family: Minecraft;
+    font-size: 72px;
+    margin-top: -10px;
+    color: rgb(33, 33, 33);
+    border: solid 10px rgb(203, 151, 48);
+    background-color: rgba(255, 255, 255, 0.388);
+    border-radius: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    transition: 0.5s;
+}
+#Title:hover {
+    transition: 0.5s;
+    border-radius: 100px;
+    padding: 10px; 
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 0px 15px black;
+}
+#Version {
+    text-align: center;
+    font-family: Minecraft;
+    font-size: 16px;
+    margin-top: -30px;
+}
+#Container1 {
+    float: left;
+    margin-left: 3%;
+    width: 32%;
+    border: 10px solid rgb(33, 33, 33);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+#Container2 {
+    display: block;
+    float: right;
+    margin-right: 3%;
+    width: 48%;
+    font-family: Product Sans Medium;
+    border: 10px solid rgb(33, 33, 33);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+#ContainerTitle {
+    transition: 0.5s;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 34px;
+    font-family: Minecraft;
+    color: rgb(245, 245, 245);
+    padding-bottom: 5px;
+    border-bottom: 5px solid transparent;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+#ContainerTitle:hover {
+    margin-left: 25%;
+    margin-right: 25%;
+    transition: 0.5s;
+    border-bottom: 5px solid rgb(245, 245, 245);
+}
+#Thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+    border: solid 5px rgb(33, 33, 33);
+    border-radius: 10px;
+    padding-bottom: 1px;
+    transition: 0.3s;
+}
+#Thumbnail:hover {
+    display: block;
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px black;
+}
+a:link {
+    text-decoration: none;
+}
+#LinksX {
+    display: flexbox;
+    transition: 0.5s;
+    font-size: 38px;
+    font-family: Product Sans Black;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    border: solid 4px transparent;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    margin-bottom: -5px;
+    padding: 10px;
+    text-align: center;
+}
+#LinksX:hover {
+    background-color: rgb(147, 25, 25);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 37px;
+    margin-bottom: -8px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#Links {
+    transition: 0.3s;
+    font-size: 24px;
+    font-family: Product Sans Medium;
+    color: rgb(245, 245, 245);
+    background-color: brown;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    margin-bottom: -5px;
+    padding: 5px;
+    text-align: center;
+}
+#Links:hover {
+    background-color: rgb(147, 25, 25);
+    box-shadow: 0px 0px 5px black;
+}
+#Container3a {
+    transition: 0.3s;
+    display: flexbox;
+    float: left;
+    margin-left: 5px;
+    border: 5px solid rgb(33, 33, 33);
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 12px;
+    width: 43%;
+}
+#Container3a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#Container3b {
+    transition: 0.3s;
+    display: flexbox;
+    float: right;
+    margin-right: 5px;
+    border: 5px solid rgb(33, 33, 33);
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 12px;
+    width: 43%;
+}
+#Container3b:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#subTitle {
+    font-family: Product Sans Medium;
+    margin-top: 5px;
+    margin-bottom: -2px;
+    color: rgb(232, 232, 232);
+    text-align: center;
+    font-size: 24px;
+}
+#Paragraphs {
+    font-family: Product Sans Medium;
+    color: rgb(224, 224, 224);
+    float: left;
+}
+#Parameters {
+    font-family: Product Sans Medium;
+    color: rgb(224, 224, 224);
+    float: right;
+}
+#ButtonsLeft {
+    transition: 0.3s;
+    margin-bottom: 0px;
+    margin-left: 2%;
+    float: left;
+    border-radius: 8px;
+    width: 45%;
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+    background-color: brown;
+    color: white;
+}
+#ButtonsLeft:hover {
+    background-color: rgb(147, 25, 25);
+    box-shadow: 0px 0px 5px black;
+}
+#ButtonsRight {
+    transition: 0.3s;
+    margin-bottom: 0px;
+    margin-right: 2%;
+    float: right;
+    border-radius: 8px;
+    width: 45%;
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+    background-color: brown;
+    color: white;
+}
+#ButtonsRight:hover {
+    background-color: rgb(147, 25, 25);
+    box-shadow: 0px 0px 5px black;
+}
+#CenterButton {
+    transition: 0.3s;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -15px;
+    border-radius: 8px;
+    width: 95%;
+    padding: 5px;
+    text-align: center;
+    font-size: 34px;
+    background-color: brown;
+    color: white;
+}
+#CenterButton:hover {
+    background-color: rgb(147, 25, 25);
+    box-shadow: 0px 0px 10px black;
+}
