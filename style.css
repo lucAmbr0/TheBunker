@@ -80,7 +80,6 @@
     width: 32%;
     border: 10px solid rgb(33, 33, 33);
     border-radius: 20px;
-    font-family: Product Sans Medium;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
@@ -108,10 +107,10 @@
     margin-right: 12%;
 }
 #ContainerTitle:hover {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     transition: 0.5s;
-    border-bottom: 5px solid rgb(33, 33, 33);
+    border-bottom: 5px solid rgb(245, 245, 245);
 }
 #Thumbnail {
     display: block;
